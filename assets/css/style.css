@@ -11,7 +11,7 @@ acronym {
 
 body {
   padding: 0 !important;
-  font-family: 'Ysabeau Office', sans-serif;
+  /* font-family: 'Ysabeau Office', sans-serif; */
 }
 
 
@@ -75,11 +75,11 @@ ul.slick-dots {
 .sec-btn {
   display: inline-block;
   padding: 8px 20px;
-  color: #F1C40F;
+  color: #179bd7;
   margin-top: 20px;
   transition: 0.4s;
   position: relative;
-  border: 1px solid #F1C40F;
+  border: 1px solid #179bd7;
   font-size: 18px;
 }
 
@@ -90,8 +90,8 @@ ul.slick-dots {
   top: -5px;
   left: -5px;
   transition: 0.4s;
-  border-left: 2px solid #F1C40F;
-  border-top: 2px solid #F1C40F;
+  border-left: 2px solid #179bd7;
+  border-top: 2px solid #179bd7;
   content: "";
 }
 
@@ -102,15 +102,15 @@ ul.slick-dots {
   bottom: -5px;
   transition: 0.4s;
   right: -5px;
-  border-right: 2px solid #F1C40F;
-  border-bottom: 2px solid #F1C40F;
+  border-right: 2px solid #179bd7;
+  border-bottom: 2px solid #179bd7;
   content: "";
 }
 
 .sec-btn:hover {
-  background-color: #009688;
+  background-color: #000770;
   color: #fff;
-  border: 1px solid #009688;
+  border: 1px solid #000770;
 }
 
 .sec-btn:hover::after,
@@ -125,7 +125,7 @@ ul.slick-dots {
 
 .under {
   position: relative;
-  color: #F1C40F;
+  color: #179bd7;
   font-size: 18px;
   font-weight: 700;
   display: inline-block;
@@ -148,7 +148,7 @@ header {
 
 .top-bar {
   padding: 5px 0px;
-  background-color: #F1C40F;
+  background-color: #179bd7;
 }
 
 .top-left ul {
@@ -176,11 +176,11 @@ header {
 }
 
 .top-left ul li a {
-  background-color: #009688;
+  background-color: #000770;
 }
 
 .top-left ul li a:hover {
-  color: #009688;
+  color: #000770;
   background-color: #fff;
   border-radius: 20%;
 }
@@ -222,7 +222,7 @@ header .book a img {
 .menu {
   position: relative;
   overflow-x: clip;
-  background-color: #009688;
+  background-color: #000770;
 }
 
 .menu .navbar-brand {
@@ -236,7 +236,7 @@ header .book a img {
 
 .dropdown-menu {
   padding: 0;
-  background-color: #F1C40F;
+  background-color: #179bd7;
 }
 
 .dropdown-menu a {
@@ -279,7 +279,7 @@ header .book a img {
 
 .menu .navbar-expand-lg .navbar-nav .nav-link:hover,
 .menu .navbar-expand-lg .navbar-nav .nav-link.active {
-  color: #F1C40F;
+  color: #179bd7;
 }
 
 .menu .navbar-expand-lg .navbar-nav .nav-link::before {
@@ -292,7 +292,7 @@ header .book a img {
   display: none;
   position: absolute;
   transform: translate(-50%, -50%);
-  background-color: #F1C40F;
+  background-color: #179bd7;
 }
 
 .menu .navbar-expand-lg .navbar-nav .nav-link:hover:before {
@@ -330,7 +330,8 @@ header .book a img {
 
 .hero-slide {
   padding-top: 130px;
-  background-image: linear-gradient(#070707e2, #0096887a), url(../images/hero2.jpg);
+  background-image: linear-gradient(rgba(7, 7, 7, 0.4), rgba(0, 7, 112, 0.4))
+, url(../images/hero2.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -347,7 +348,7 @@ header .book a img {
 }
 
 .hero-two {
-  background-image: linear-gradient(#070707ea, #009688c9), url(../images/hero1.jpg);
+  background-image:linear-gradient(rgba(7, 7, 7, 0.6), rgba(0, 7, 112, 0.6)), url(../images/hero1.jpg);
 }
 
 /* ---Hero-Section-End--- */
@@ -372,12 +373,12 @@ header .book a img {
 }
 
 .choose-section .g-md-0:nth-child(1) .ch-box {
-  background-color: #009688;
+  background-color: #000770;
   color: #fff;
 }
 
 .choose-section .g-md-0:nth-child(3) .ch-box {
-  background-color: #F1C40F;
+  background-color: #179bd7;
   color: #fff;
 }
 
@@ -476,7 +477,7 @@ header .book a img {
 }
 
 .quote-section .form-box h2 {
-  color: #F1C40F;
+  color: #179bd7;
   font-size: 40px;
 }
 
@@ -502,7 +503,7 @@ header .book a img {
 }
 
 .form-box .sec-btn:hover {
-  background-color: #F1C40F;
+  background-color: #179bd7;
 }
 
 .form-box .f-group select {
@@ -538,7 +539,7 @@ header .book a img {
 }
 
 .as-img1 img {
-  border: 10px solid #F1C40F;
+  border: 10px solid #179bd7;
   height: 100%;
   object-fit: cover;
 }
@@ -565,13 +566,13 @@ header .book a img {
   transition: .5s;
   height:100%;
   text-align: center;
-  border: 3px double #F1C40F;
-  box-shadow: 0px 10px 20px 0px #00968818;
+  border: 3px double #179bd7;
+  box-shadow: 0px 10px 20px 0px #00077018;
 }
 
 .cont-box:hover {
-  background-color: #009688;
-  border-color:#009688 ;
+  background-color: #000770;
+  border-color:#000770 ;
   color: #fff;
 }
 
@@ -579,12 +580,12 @@ header .book a img {
   font-size: 45px;
   margin-top: 10px;
   font-weight: 500;
-  color: #009688;
+  color: #000770;
   position: relative;
   line-height: 30px;
 }
 .cont-box:hover h2{
-  color: #F1C40F;
+  color: #179bd7;
 }
 .cont-box p {
   margin: 0;
@@ -612,7 +613,7 @@ header .book a img {
 /* ---Service-Section-Start---- */
 
 .service-section {
-  background-image: linear-gradient(#009688d4, #009688d4), url(../images/service.jpg);
+  background-image: linear-gradient(#000770d4, #000770d4), url(../images/service.jpg);
   color: #fff;
   background-size: cover;
   background-attachment: fixed;
@@ -653,14 +654,14 @@ header .book a img {
   top: 0;
   left: 0;
   height: 50px;
-  border-left: 3px solid #F1C40F;
-  border-top: 3px solid #F1C40F;
+  border-left: 3px solid #179bd7;
+  border-top: 3px solid #179bd7;
 }
 
 .service-section .ser-box:hover:after {
   height: 100%;
-  border-left: 3px solid #F1C40F;
-  border-top: 3px solid #F1C40F;
+  border-left: 3px solid #179bd7;
+  border-top: 3px solid #179bd7;
   width: 100%;
 }
 
@@ -672,14 +673,14 @@ header .book a img {
   bottom: 0;
   right: 0;
   height: 50px;
-  border-right: 3px solid #F1C40F;
-  border-bottom: 3px solid #F1C40F;
+  border-right: 3px solid #179bd7;
+  border-bottom: 3px solid #179bd7;
 }
 
 .ser-box:hover::before {
   height: 100%;
-  border-bottom: 3px solid #F1C40F;
-  border-right: 3px solid #F1C40F;
+  border-bottom: 3px solid #179bd7;
+  border-right: 3px solid #179bd7;
   width: 100%;
 }
 
@@ -700,7 +701,7 @@ header .book a img {
 }
 
 .service-section .ser-box .ser-link a {
-  color: #F1C40F;
+  color: #179bd7;
   font-weight: 600;
   position: relative;
   z-index: 3;
@@ -725,7 +726,7 @@ header .book a img {
 }
 
 .ser-img .text .ser-link a {
-  color: #F1C40F;
+  color: #179bd7;
   font-weight: 600;
   font-size: 15px;
 }
@@ -770,7 +771,7 @@ header .book a img {
   left: 0;
   width: 100%;
   height: 0;
-  background-color: #009688;
+  background-color: #000770;
   transition: .4s;
   content: "";
 }
@@ -786,7 +787,7 @@ header .book a img {
   width: 0;
   transform: translate(-50%, -50%);
   height: 3px;
-  background-color: #F1C40F;
+  background-color: #179bd7;
   z-index: 3;
   transition: .4s;
   content: "";
@@ -884,7 +885,7 @@ header .book a img {
   position: relative;
   padding: 50px 20px 20px;
   background-color: #fff;
-  box-shadow: 0px 5px 10px 5px #00968814;
+  box-shadow: 0px 5px 10px 5px #00077014;
 }
 
 .tes-box .tes-item .tes-quote {
@@ -895,7 +896,7 @@ header .book a img {
   align-items: center;
   justify-content: center;
   background-color: transparent;
-  color: #F1C40F;
+  color: #179bd7;
   height: 60px;
   transition: .5s;
   width: 60px;
@@ -904,7 +905,7 @@ header .book a img {
 }
 
 .tes-box:hover .tes-item .tes-quote {
-  background-color: #F1C40F;
+  background-color: #179bd7;
   color: #fff;
 }
 
@@ -915,7 +916,7 @@ header .book a img {
   position: relative;
   margin-top: 10px;
   background-color: #fff;
-  box-shadow: 0px 5px 10px 4px #00968814;
+  box-shadow: 0px 5px 10px 4px #00077014;
 }
 
 .tes-box:hover .tes-info {
@@ -928,7 +929,7 @@ header .book a img {
   left: 0;
   width: 4px;
   height: 100%;
-  background-color: #F1C40F;
+  background-color: #179bd7;
   content: "";
   transition: .4s;
 }
@@ -955,7 +956,7 @@ header .book a img {
 .tes-box .tes-info .text h5 {
   margin-bottom: 0;
   font-weight: 600;
-  color: #009688;
+  color: #000770;
 }
 
 /* ---Testimonial-Section-End----- */
@@ -965,7 +966,7 @@ header .book a img {
 
 .footer-section {
   padding-top: 30px;
-  background-color: #009688;
+  background-color: #000770;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -1013,12 +1014,12 @@ header .book a img {
 }
 
 .footer-box .social li a {
-  background-color: #F1C40F;
+  background-color: #179bd7;
 }
 
 
 .footer-box .social li a:hover {
-  color: #F1C40F;
+  color: #179bd7;
   background-color: #fff;
   border-radius: 100%;
 }
@@ -1026,7 +1027,7 @@ header .book a img {
 .footer-box .footer-title h4 {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #F1C40F;
+  color: #179bd7;
   font-weight: 700;
   position: relative;
 }
@@ -1043,7 +1044,7 @@ header .book a img {
 }
 
 .footer-link ul li a:hover {
-  color: #F1C40F;
+  color: #179bd7;
 }
 
 .footer-box ul {
@@ -1066,7 +1067,7 @@ header .book a img {
 }
 
 .footer-link2 ul li a:hover {
-  color: #F1C40F;
+  color: #179bd7;
 }
 
 .footer-link2 ul li i {
@@ -1079,14 +1080,14 @@ header .book a img {
   transition: .5s;
   margin-right: 10px;
   border-radius: 4px;
-  background-color: #F1C40F;
+  background-color: #179bd7;
   font-size: 20px;
 }
 
 .footer-link2 ul li:hover i {
   background-color: #fff;
   border-radius: 100%;
-  color: #F1C40F;
+  color: #179bd7;
 }
 
 .footer-link2 ul li span,
@@ -1098,7 +1099,7 @@ header .book a img {
   text-align: center;
   padding: 10px;
   z-index: 7;
-  background-color: #F1C40F;
+  background-color: #179bd7;
   margin-top: 50px;
   position: relative;
 }
@@ -1108,14 +1109,14 @@ header .book a img {
 }
 
 .footer-section .copy-right p a {
-  color: #009688;
+  color: #000770;
   font-weight: 600;
 }
 
 .footer-section .map {
   height: 100%;
   border-radius: 10px;
-  box-shadow: 0px 10px 20px 0px #00968836;
+  box-shadow: 0px 10px 20px 0px #00077036;
   margin-top: 20px;
 }
 
@@ -1141,7 +1142,7 @@ header .book a img {
   position: absolute;
   bottom: 0;
   right: 100px;
-  background-color: #F1C40F;
+  background-color: #179bd7;
   align-items: center;
   justify-content: center;
   margin-bottom: 0;
@@ -1158,7 +1159,7 @@ header .book a img {
 }
 
 .banner-title ul li a:hover {
-  color: #009688;
+  color: #000770;
 }
 
 /* ---Banner-Section-End--- */
@@ -1174,7 +1175,7 @@ header .book a img {
 .mission-section .ms-box {
   background-color: #fff;
   padding: 30px;
-  box-shadow: 0px 10px 10px 0px #0096881b;
+  box-shadow: 0px 10px 10px 0px #0007701b;
   position: relative;
   transition: .5s;
 }
@@ -1191,7 +1192,7 @@ header .book a img {
   transform: scale(0, 1);
   transition: .5s;
   height: 4px;
-  background-color: #F1C40F;
+  background-color: #179bd7;
   content: "";
 }
 
@@ -1346,13 +1347,13 @@ header .book a img {
   }
 
   .menu .navbar-toggler {
-    border: 2px solid #009688;
+    border: 2px solid #000770;
   }
 
   .menu .navbar-toggler-icon {
     display: flex;
     align-items: center;
-    color: #F1C40F;
+    color: #179bd7;
     justify-content: center;
   }
 
@@ -1376,7 +1377,7 @@ header .book a img {
   .menu .navbar-expand-lg .navbar-nav .nav-link {
     padding: 3px 0px;
     font-weight: 600;
-    color: #009688;
+    color: #000770;
   }
 
   .menu .navbar-expand-lg .navbar-nav .nav-link::before {
@@ -1531,7 +1532,7 @@ h2,.service-two .ser-box h2 {
 .thank ul li a{
   height:40px;
   width:40px;
-  background:#F1C40F;
+  background:#179bd7;
   color:#fff;
   display:flex;
   align-items:center;
